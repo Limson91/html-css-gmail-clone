@@ -21,6 +21,11 @@ img {
     padding: 10px 0;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
 /* header */
 
 .logo {
@@ -55,7 +60,7 @@ img {
     border: none;
 }
 
-.unread {
+.unread-message {
     color: white;
     margin-top: 10px;
 }
@@ -64,4 +69,37 @@ img {
     background-color: orange;
     padding: 5px;
     border-radius: 50%;
+}
+
+.email {
+    padding: 10px 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.email i {
+    margin: 0 5px;
+}
+
+.row-left, .row-right, .email-date {
+    display: inline-block;
+}
+
+.row-left {
+    width: 30%;
+}
+
+.row-right {
+    width: 58%;
+}
+
+.email-date {
+    width: 10%;
+    text-align: right;
+}
+
+.unread {
+    background-color: white;
+    font-weight: bold;
 }
